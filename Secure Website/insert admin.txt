@@ -1,0 +1,1 @@
+INSERT INTO `users` (`Salt`, `Password`, `Admin`, `Username`, `Created Date`, `Locked`) VALUES ('qwert1', 'SAD_2019', '1', 'Admin', current_timestamp(), '0');

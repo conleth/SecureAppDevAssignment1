@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<Link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<meta charset="utf-8">
+		<title>Register</title>
+	</head>
+	<body>
+		<div class="register-form">
+			<h1>Register Form</h1>
+			<form action="Register.php" method="post">
+				<input type="text" name="username" placeholder="Username" required>
+				<input type="password" name="password" placeholder="Password" required>
+				<input type="password" name="confirmPassword" placeholder="Confirm Password" required>
+				<input type="submit" value="Register">
+				<h3>Password must contain the following:</h3>
+			  	<p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+			  	<p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+			  	<p id="number" class="invalid">A <b>number</b></p>
+				<p id="number" class="invalid">A <b>special charcter</b></p>
+			  	<p id="length" class="invalid">Minimum <b>8 characters</b></p>
+			</form>
+		</div>
+	</body>
+</html>
